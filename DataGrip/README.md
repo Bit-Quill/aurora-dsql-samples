@@ -49,7 +49,7 @@ DataGrip automatically includes the PostgreSQL JDBC driver, so you should not ne
 
 **7. Test the Connection:**
 
-- Once you've entered all the details, click the Test Connection button at the bottom of the window.
+- Once you've entered all the details, click the ‘Test Connection’ button at the bottom of the window.
 - If the connection is successful, you will see a green check mark indicating everything is set up correctly.
 - If there's an error, DataGrip will provide more details on the issue (such as incorrect login credentials, database name, or network connectivity problems).
 
