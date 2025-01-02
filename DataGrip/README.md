@@ -11,7 +11,7 @@ Before you begin, make sure that you have completed the following prerequisites.
 
 **1. Install DataGrip:**
 
-Ensure you have DataGrip installed. You can download it from [https://www.jetbrains.com/datagrip](https://www.jetbrains.com/datagrip)
+Ensure you have DataGrip installed. You can download it from the [official website](https://www.jetbrains.com/datagrip)
 
 **2. Create a new Project:**
 
