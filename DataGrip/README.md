@@ -1,6 +1,8 @@
 # Using DataGrip to interact with Aurora DSQL
 
-This section describes how to use DataGrip to interact with Aurora DSQL.
+This section describes how to use DataGrip from JetBrains to interact with Aurora DSQL.
+
+DataGrip is a powerful, cross-platform database management tool, designed for database developers and administrators. It provides a comprehensive environment for working with relational databases, offering a wide range of features to streamline database management, development, and analysis.
 
 Before you begin, make sure that you have completed the following prerequisites.
 
