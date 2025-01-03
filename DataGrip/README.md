@@ -70,6 +70,6 @@ DataGrip automatically includes the PostgreSQL JDBC driver, so you should not ne
 
 **Connection Issues:** If the connection fails, check the following:
 
-- Verify the Aurora DSQL server is running and accessible from your machine.
+- Ensure your Aurora DSQL cluster is accessible from your machine.
 - Ensure that the username and password are correct.
 - Ensure that firewall or network settings allow connections on port 5432.
