@@ -65,6 +65,16 @@ DataGrip automatically includes the PostgreSQL JDBC driver, so you should not ne
 - Open a new SQL console by right-clicking the database name in the Database window and selecting New Console.
 - Write and execute your SQL queries as usual.
 
+## Known Issues
+
+- DataGrip fails to list tables in schema, a example workaround to list tables is to run the following query.
+
+    ````
+    SELECT *
+    FROM information_schema.tables
+    WHERE table_schema = 'public';
+    ````
+
 ## Additional Tips
 
 - Auto-Completion and Code Assistance: DataGrip will provide SQL auto-completion, syntax highlighting, and other PostgreSQL-specific features like functions and data types.
