@@ -75,6 +75,8 @@ func example(clusterEndpoint string, region string) error {
 		return err
 	}
 
+	defer conn.Close(ctx)
+
 	// Create owner table
 	_, err = conn.Exec(ctx, `
 		CREATE TABLE IF NOT EXISTS owner (
@@ -113,8 +115,6 @@ func example(clusterEndpoint string, region string) error {
 	if err != nil {
 		return err
 	}
-
-	defer conn.Close(ctx)
 
 	return nil
 }
